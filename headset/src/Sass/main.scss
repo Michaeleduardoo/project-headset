@@ -104,7 +104,6 @@ video {
   transition: all 200ms linear;
 }
 
-// Element Section
 .section {
   margin: 0 auto;
   padding: 6rem 0 1rem;
@@ -210,7 +209,6 @@ video {
   }
 }
 
-// Header Section
 .header {
   position: fixed;
   top: 0;
@@ -314,7 +312,6 @@ video {
     background-color: var(--color-white-100);
   }
 
-  // Media Query Breakpoint
   @media only screen and (min-width: 48rem) {
     position: relative;
     top: 0;
@@ -358,7 +355,6 @@ video {
   transform: rotate(0deg);
   transition: 0.35s ease;
 
-  // Media Query Breakpoint
   @media only screen and (min-width: 48rem) {
     display: none;
     visibility: hidden;
@@ -406,7 +402,6 @@ video {
   }
 }
 
-// Banner Section
 .banner {
   &-column {
     position: relative;
@@ -414,7 +409,6 @@ video {
     align-items: center;
     row-gap: 3rem;
 
-    // Media Query Breakpoint
     @media only screen and (min-width: 48rem) {
       grid-template-columns: repeat(2, minmax(0, 1fr));
       justify-content: center;
@@ -435,7 +429,6 @@ video {
     object-fit: cover;
     justify-self: center;
 
-    // Media Query Breakpoint
     @media only screen and (min-width: 48rem) {
       order: 1;
       max-width: 20rem;
@@ -466,7 +459,6 @@ video {
     opacity: 0;
     visibility: hidden;
 
-    // Media Query Breakpoint
     @media only screen and (min-width: 64rem) {
       opacity: 1;
       visibility: visible;
