@@ -8,7 +8,6 @@ const App = () => {
     const burgerMenu = document.getElementById("burger");
     const headerMenu = document.getElementById("header");
 
-    // Open Close Navbar Menu on Click Burger
     const toggleMenu = () => {
       burgerMenu.classList.toggle("is-active");
       navbarMenu.classList.toggle("is-active");
@@ -18,7 +17,6 @@ const App = () => {
       burgerMenu.addEventListener("click", toggleMenu);
     }
 
-    // Close Navbar Menu on Click Menu Links
     const closeMenu = () => {
       burgerMenu.classList.remove("is-active");
       navbarMenu.classList.remove("is-active");
@@ -28,7 +26,6 @@ const App = () => {
       link.addEventListener("click", closeMenu);
     });
 
-    // Change Header Background on Scrolling
     const changeHeaderBackground = () => {
       if (window.scrollY >= 85) {
         headerMenu.classList.add("on-scroll");
